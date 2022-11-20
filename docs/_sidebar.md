@@ -1,0 +1,31 @@
+- [Install](install.md)
+- [Istilah Umum](terms.md)
+- [Virtual Env](virtual_env.md)
+
+- [Membangun Web](build-web/)
+    * [Setup](build-web/setup.md)
+    * [App & Migration](build-web/app-migration.md)
+    * [Django Admin](build-web/admin.md)
+    * [Validation](build-web/validation.md)
+    * [View](build-web/view.md)
+    * [Template](build-web/template.md)
+    * [Forms](build-web/form.md)
+    * [Final](build-web/final.md)
+
+
+- [Fitur](feature/)
+    * [Model & Migration](feature/model-migration.md)
+    * [Django Admin](not-ready.md)
+    * [Forms](not-ready.md)
+    * [Validation](not-ready.md)
+    * [View](not-ready.md)
+    * [Template](not-ready.md)
+    * [Signal](not-ready.md)
+
+- Ekstra
+    * [Testing](not-ready.md)
+    * [Logging](not-ready.md)
+    * [Cache](not-ready.md)
+    * [Development Env](not-ready.md)
+    * [Konfigurasi Env](not-ready.md)
+    * [Deployment](not-ready.md)

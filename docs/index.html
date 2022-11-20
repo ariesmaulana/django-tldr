@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Django TL;DR</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <!-- Theme: Simple -->
+<!-- Theme: Simple (light + dark) -->
+<link rel="stylesheet" href="//unpkg.com/docsify-accordion/src/style.css">
+
+<link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+<link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+  :root {
+    --theme-color   : #90EE90;
+    --base-font-family  : "Patrick Hand"
+  }
+  .accordion {
+    background: #1f282d ;
+  }
+  ul.accordion-wrapper > li > .accordion-content-container {
+    display: block;
+    margin: 0 20px 20px 20px;
+    padding: 0 15px 20px;
+    background: #283339;
+    cursor: default;
+    overflow: hidden;
+  }
+
+  ul.accordion-wrapper > li:hover {
+    background: #283339;
+  }
+</style>
+</head>
+<body>
+  <div id="app" class="paper container">Please wait...</div>
+  <script>
+    window.$docsify = {
+      name: 'Django TL;DR',
+      search: 'auto', 
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      sidebarDisplayLevel: 1,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      }
+
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <script src="https://unpkg.com/docsify-copy-code@2"></script>
+  <script src="//unpkg.com/docsify-accordion/src/index.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-html.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  
+  
+
+</body>
+</html>
